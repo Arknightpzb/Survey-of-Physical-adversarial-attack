@@ -12,6 +12,7 @@
 | 2019-ICCV | 【AdvPattern】advPattern: physical-world attacks on deep person re-identification via adversarially transformable patterns | [论文](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_advPattern_Physical-World_Attacks_on_Deep_Person_Re-Identification_via_Adversarially_Transformable_ICCV_2019_paper.pdf)|  **首次**面向行人re-ID（再识别）系统的补丁对抗攻击 | | EOT; TV,NPS  | |
 | 2019-SIBIRCON | 【ArcFaceAttack】On adversarial patches: real-world attack on arcface-100 face recognition system | [paper](https://ieeexplore.ieee.org/document/8958134)| 面向人脸识别系统的补丁对抗攻击 | Projective transformation(简单使用了基于网格校正的投影变换模拟补丁在非平面上的布置形态); TV |
 | 2020-ECCV, 2021-TIP | 【Bias-based Attack】Bias-based universal adversarial patch attack for automatic check-out | [论文ECCV版](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580392.pdf), [论文TIP版](https://ieeexplore.ieee.org/document/9632406) | 针对自动购物检测系统的通用对抗补丁 |  | 利用风格迁移损失融合难样本的纹理，并结合视觉注意力机制产生干扰性纹理先验。 并使用数据流形简化训练； EOT | |
+| 2020-ICPR | 【AdvHat】Advhat: Real-world adversarial attack on arcface face id system | [paper](https://www.computer.org/csdl/proceedings-article/icpr/2021/09412236/1tmhLeqyrHq)| 面向人脸识别的对抗性帽子（贴）| | 使用抛物线型变换(parabolic transformation)模拟平面弯曲过程，从而更好模拟补丁粘贴在帽子上的形态; TV |
 | 2022-TIFS | 【TnTAttack】TnT Attacks! Universal Naturalistic Adversarial Patches Against Deep Neural Network Systems | [paper](https://ieeexplore.ieee.org/document/9856683)\|[Project](https://TnTattacks.github.io/) | 面向自然图像分类的视觉和谐补丁| 使用了GAN-based方法，通过GAN模型的生成网络将输入向量映射成为具有常见物品形态的视觉和谐补丁，并通过调整输入向量的值来使得补丁具备对抗干扰性能| | |
 
 ## 基于3D实体形态的物理对抗攻击
