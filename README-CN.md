@@ -28,6 +28,7 @@
 | 2021-CVPR | 【TAP】Improving transferability of adversarial patches on face recognition with generative models | [论文](https://openaccess.thecvf.com/content/CVPR2021/papers/Xiao_Improving_Transferability_of_Adversarial_Patches_on_Face_Recognition_With_Generative_CVPR_2021_paper.pdf) | 面向人脸识别的补丁对抗攻击| 基于在人脸生成任务上预训练的GAN，将输入向量投影成为补丁，并通过优化调整输入向量的值来使补丁具备对抗效果。|  在优化过程中使用了 momentum iterative method(MIM)和TIDIM方法提升可迁移性; EOT | |
 | 2021-CVPR | 【TranslucentPatch】The translucent patch: A physical and universal attack on object detectors | [论文](https://openaccess.thecvf.com/content/CVPR2021/papers/Zolfi_The_Translucent_Patch_A_Physical_and_Universal_Attack_on_Object_CVPR_2021_paper.pdf) | 面向自然图像识别的补丁攻击 | 将补丁建模为半透明的薄片，假设攻击者可以接触到成像设备，将薄片粘贴于成像设备上，产生视觉干扰区域，实现通用对抗干扰 | NPS | |
 | 2022-TIFS | 【TnTAttack】TnT Attacks! Universal Naturalistic Adversarial Patches Against Deep Neural Network Systems | [论文](https://ieeexplore.ieee.org/document/9856683) | 面向自然图像分类的视觉和谐补丁| 使用了GAN-based方法，通过GAN模型的生成网络将输入向量映射成为具有常见物品形态的视觉和谐补丁，并通过调整输入向量的值来使得补丁具备对抗干扰性能| | |
+| 2021-ICCV | 【NaturalisticPatch】Naturalistic physical adversarial patch for object detectors | [论文](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_Naturalistic_Physical_Adversarial_Patch_for_Object_Detectors_ICCV_2021_paper.pdf) | 面向行人检测的补丁对抗攻击 | 基于隐变量的GAN对抗攻击，GAN在自然图像中进行预训练。 | TV | |
 | 2022-TPAMI | 【AdvSticker】Adversarial Sticker: A Stealthy Attack Method in the Physical World | [论文](https://ieeexplore.ieee.org/document/9779913)| 面向人脸识别的对抗贴纸| 设计了基于区域的启发式差分进化算法，寻找给定贴纸的最具备对抗干扰性的位置参数，通过在相应位置粘贴给定贴纸实现对抗攻击。 | 在X-Z平面上bending（翘曲）并在Y-Z平面上rotating（旋转）来模拟贴纸在面部的粘贴情况 | |
 | 2022-TPAMI | 【SOPP】Simultaneously Optimizing Perturbations and Positions for Black-box Adversarial Patch Attacks | [论文](https://arxiv.org/abs/2212.12995)| 面向人脸识别的补丁对抗攻击 | 使用强化学习同时优化对抗补丁的纹理和位置，实现了基于查询的黑盒物理对抗攻击 | | | |
 
@@ -37,7 +38,6 @@
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 2022-ECMLPKDD | 【AdvMask】Adversarial Mask: Real-World Adversarial Attack Against Face Recognition Models | [论文](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_406.pdf)| 面向人脸识别的对抗口罩 | 利用人脸关键点将对抗性纹理布置到口罩佩戴位置，并使用3D人脸重建在人脸图像上布置口罩 | EOT; TV | |
 | 2022-CVPR | 【AdvTexture】Adversarial Texture for Fooling Person Detectors in the Physical World | [论文](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Adversarial_Texture_for_Fooling_Person_Detectors_in_the_Physical_World_CVPR_2022_paper.pdf)| 面向行人检测开发可穿戴对抗样本 | (TC-EGA)利用FCN的平移不变性构建了产生扩展性纹理的生成器，并使用Toroidal Cropping(TC)辅助训练输入至生成器的隐变量，使得纹理产生拓扑结构 | EOT,TPS; TV | |
-
 
 ## 无接触的物理对抗攻击
 无接触的物理对抗攻击指**通过在场景中投射具备干扰性的阴影区域或改变光照条件等非直接接触干扰手段，使得模型在该场景下产生错误的决策**的对抗攻击方法
