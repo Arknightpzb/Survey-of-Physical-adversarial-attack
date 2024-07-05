@@ -36,6 +36,7 @@
 基于3D实体形态的物理对抗攻击指通过将**通过改变目标物体的外型、纹理或放置具备干扰性的实体，从而在任意视角下均可对模型产生干扰效果**的对抗攻击方法
 | 年份-刊物 | 标题 | 链接 | 论文解决的关键问题 | 建模方法创新点 | 增强方法与约束条件 | 评估方案增量 |
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| 2019-ICLR | 【CAMOU】CAMOU: Learning A Vehicle Camouflage For Physical Adversarial Attack On Object Detections In The Wild | [论文](https://openreview.net/pdf?id=SJgEl3A5tm)  | 面向车辆目标检测的对抗涂装 | 利用了3D模型和渲染技术，未公开涂装模拟布置的细节 |EOT| 仿真环境：Unreal |
 | 2022-ECMLPKDD | 【AdvMask】Adversarial Mask: Real-World Adversarial Attack Against Face Recognition Models | [论文](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_406.pdf)| 面向人脸识别的对抗口罩 | 利用人脸关键点将对抗性纹理布置到口罩佩戴位置，并使用3D人脸重建在人脸图像上布置口罩 | EOT; TV | |
 | 2022-CVPR | 【AdvTexture】Adversarial Texture for Fooling Person Detectors in the Physical World | [论文](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Adversarial_Texture_for_Fooling_Person_Detectors_in_the_Physical_World_CVPR_2022_paper.pdf)| 面向行人检测开发可穿戴对抗样本 | (TC-EGA)利用FCN的平移不变性构建了产生扩展性纹理的生成器，并使用Toroidal Cropping(TC)辅助训练输入至生成器的隐变量，使得纹理产生拓扑结构 | EOT,TPS; TV | |
 
@@ -49,7 +50,7 @@
 | 2021-CVPR | 【LEDAttack】Invisible perturbations: Physical adversarial examples exploiting the rolling shutter effect | [论文](https://openaccess.thecvf.com/content/CVPR2021/papers/Sayles_Invisible_Perturbations_Physical_Adversarial_Examples_Exploiting_the_Rolling_Shutter_Effect_CVPR_2021_paper.pdf)| 面向自然图像分类的无接触LED投影攻击 | 利用商品相机中的辐射卷帘快门效应，提出基于LED投影的对抗攻击，使得经过卷帘快门相机拍摄的图像上出现的具备干扰性的条纹图案。 | EOT | |
 | 2021-CVPR | 【AdvLB】Adversarial laser beam: Effective physical-world attack to dnns in a blink | [论文](https://openaccess.thecvf.com/content/CVPR2021/papers/Duan_Adversarial_Laser_Beam_Effective_Physical-World_Attack_to_DNNs_in_a_CVPR_2021_paper.pdf)| 面向自然图像分类的无接触光照对抗攻击 | 基于对激光束的参数化建模，将激光束投射到自然图像中，并利用启发式搜索方法寻找最具备对抗干扰性能的激光束参数 | | EOT | |
 | 2022-IEEE VR | 【SPAA】SPAA: Stealthy Projector-based Adversarial Attacks on Deep Image Classifiers | [论文](https://ieeexplore.ieee.org/document/9756739) | 面向自然图像分类的投影攻击 | 设计了PCNet用于模拟投影仪投影图像到场景中并被相机拍摄成像过程，基于充分训练的PCNet通过将对抗性噪声投影到目标物体所在场景实现对分类面向的干扰 | 本质上属于D2P的应用 | |
-| 2021-USENIX Security | 【SLAP】SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations | [paper](https://www.usenix.org/system/files/sec21fall-lovisotto.pdf)| 面向自然图像检测的投影对抗攻击 |  | EOT; TV,NPS（投影仪版本）| |
+| 2021-USENIX Security | 【SLAP】SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations | [论文](https://www.usenix.org/system/files/sec21fall-lovisotto.pdf)| 面向自然图像检测的投影对抗攻击 |  | EOT; TV,NPS（投影仪版本）| |
 | 2022-CVPR | 【ShadowAttack】Shadows can be dangerous: Stealthy and effective physical-world adversarial attack by natural phenomenon | [论文](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_Shadows_Can_Be_Dangerous_Stealthy_and_Effective_Physical-World_Adversarial_Attack_CVPR_2022_paper.pdf)| 面向自然图像的阴影对抗攻击 | 通过对自然条件下的阴影进行参数化建模，将阴影投射在目标物体表面产生对抗干扰效果，通过PSO启发式寻优进行优化 | EOT | |
 ## 其他
 主要收录一些做数字域对抗攻击的论文，但是提出了一些新的可用于物理域的鲁棒性增强方法
