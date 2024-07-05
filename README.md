@@ -1,6 +1,6 @@
 # Survey-of-Physical-adversarial-attack
 
-
+# See README-CN for details
 
 ## Image Recognition 
 
