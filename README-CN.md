@@ -36,7 +36,7 @@
 基于3D实体形态的物理对抗攻击指通过将**通过改变目标物体的外型、纹理或放置具备干扰性的实体，从而在任意视角下均可对模型产生干扰效果**的对抗攻击方法
 | 年份-刊物 | 标题 | 链接 | 论文解决的关键问题 | 建模方法创新点 | 增强方法与约束条件 | 评估方案增量 |
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| 2019-ICLR | 【CAMOU】CAMOU: Learning A Vehicle Camouflage For Physical Adversarial Attack On Object Detections In The Wild | [论文](https://openreview.net/pdf?id=SJgEl3A5tm)  | 面向车辆目标检测的对抗涂装 | 利用了3D模型和渲染技术，未公开涂装模拟布置的细节 |EOT| 仿真环境：Unreal |
+| 2019-ICLR | 【CAMOU】CAMOU: Learning A Vehicle Camouflage For Physical Adversarial Attack On Object Detections In The Wild | [论文](https://openreview.net/pdf?id=SJgEl3A5tm)  | 面向车辆目标检测的对抗涂装 | 利用了3D模型和渲染技术，未公开涂装模拟布置的细节 |EOT| 仿真环境使用Unreal |
 | 2022-ECMLPKDD | 【AdvMask】Adversarial Mask: Real-World Adversarial Attack Against Face Recognition Models | [论文](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_406.pdf)| 面向人脸识别的对抗口罩 | 利用人脸关键点将对抗性纹理布置到口罩佩戴位置，并使用3D人脸重建在人脸图像上布置口罩 | EOT; TV | |
 | 2022-CVPR | 【AdvTexture】Adversarial Texture for Fooling Person Detectors in the Physical World | [论文](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Adversarial_Texture_for_Fooling_Person_Detectors_in_the_Physical_World_CVPR_2022_paper.pdf)| 面向行人检测开发可穿戴对抗样本 | (TC-EGA)利用FCN的平移不变性构建了产生扩展性纹理的生成器，并使用Toroidal Cropping(TC)辅助训练输入至生成器的隐变量，使得纹理产生拓扑结构 | EOT,TPS; TV | |
 
