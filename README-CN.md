@@ -36,7 +36,7 @@
 | 2022-TPAMI | 【SOPP】Simultaneously Optimizing Perturbations and Positions for Black-box Adversarial Patch Attacks | [论文](https://arxiv.org/abs/2212.12995)| 面向人脸识别的补丁对抗攻击 | 使用强化学习同时优化对抗补丁的纹理和位置，实现了基于查询的黑盒物理对抗攻击 | | | |
 | 2022-CVPR | 【QRAttack】Infrared Invisible Clothing: Hiding from Infrared Detectors at Multiple Angles in Real World | [论文](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Infrared_Invisible_Clothing_Hiding_From_Infrared_Detectors_at_Multiple_Angles_CVPR_2022_paper.pdf)| 面向行人检测的对抗涂装 | 使用二值化的对抗单元进行堆砌，形成类似二维码的对抗纹理 | EOT, TPS | 使用气凝胶毛毡制作红外对抗涂装 |
 | 2022-WACV | 【AerialAttack】Physical adversarial attacks on an aerial imagery object detector | [论文](https://openaccess.thecvf.com/content/WACV2022/papers/Du_Physical_Adversarial_Attacks_on_an_Aerial_Imagery_Object_Detector_WACV_2022_paper.pdf) | **首个**面向遥感场景的物理对抗补丁 | EOT; TV,NPS | |
-|  2022-WACV | 【RWAE】Evaluating the robustness of semantic segmentation for autonomous driving against real-world adversarial patch attacks | [论文](https://openaccess.thecvf.com/content/WACV2022/papers/Nesti_Evaluating_the_Robustness_of_Semantic_Segmentation_for_Autonomous_Driving_Against_WACV_2022_paper.pdf) | 面向自然图像分割的对抗补丁 | EOT | 使用了无人驾驶仿真环境CARLA on Unreal Engine |
+| 2022-WACV | 【RWAE】Evaluating the robustness of semantic segmentation for autonomous driving against real-world adversarial patch attacks | [论文](https://openaccess.thecvf.com/content/WACV2022/papers/Nesti_Evaluating_the_Robustness_of_Semantic_Segmentation_for_Autonomous_Driving_Against_WACV_2022_paper.pdf) | 面向自然图像分割的对抗补丁 | EOT | 使用了无人驾驶仿真环境CARLA on Unreal Engine |
 | 2022-ECCV | 【MDEAttack】Physical attack on monocular depth estimation with optimal adversarial patches | [论文](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980504.pdf) | 面向自动驾驶深度估计的补丁对抗攻击 | 提出自适应mask生成方法，自适应地调整补丁位置与形状 | EOT; StyleTransfer |  |
 ## 基于3D实体形态的物理对抗攻击
 基于3D实体形态的物理对抗攻击指通过将**通过改变目标物体的外型、纹理或放置具备干扰性的实体，从而在任意视角下均可对模型产生干扰效果**的对抗攻击方法
@@ -70,6 +70,7 @@
 主要收录一些做数字域对抗攻击的论文，但是提出了一些新的可用于物理域的鲁棒性增强方法
 | 年份-刊物 | 标题 | 链接 | 论文解决的关键问题 | 建模方法创新点 | 增强方法与约束条件 | 评估方案增量 |
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| 2018-ICML | 【EOT】Synthesizing robust adversarial examples | [论文]([https://ojs.aaai.org/index.php/AAAI/article/view/3926](https://arxiv.org/pdf/1707.07397))| | | EOT(**首次**)(Adding a transformation step into the optimization process of generating adversarial perturbations.)| |
 | 2019-AAAI | 【D2P】Connecting the digital and physical world: Improving the robustness of adversarial attacks | [论文](https://ojs.aaai.org/index.php/AAAI/article/view/3926)| 设计了Digital-to-physical Transformation(D2P)方法，使用conditional Generative Adversarial Network用于模拟真实应用场景的拍摄条件，从而使得对抗样本能够在 与实际应用场景更贴近的物理仿真图像上进行训练 | | EOT, D2P(**首次**)| |
 
 
