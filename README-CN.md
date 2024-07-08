@@ -82,6 +82,8 @@
 | 2024-WACV                       | Natural Light Can Also be Dangerous: Traffic Sign Misinterpretation Under Adversarial Natural Light Attacks | [论文](https://openaccess.thecvf.com/content/WACV2024/papers/Hsiao_Natural_Light_Can_Also_Be_Dangerous_Traffic_Sign_Misinterpretation_Under_WACV_2024_paper.pdf)| 面向标志牌的对抗攻击          | 先训一个generator能生成标志牌上的亮光，与真实分布接近，之后再用ZOO灰度攻击方式来打                                      | |  |
 | 2024-IOT                        | OptiCloak: Blinding Vision-Based Autonomous Driving Systems Through Adversarial Optical Projection | [论文](https://ieeexplore.ieee.org/abstract/document/10538370)| 面向自动驾驶的对抗攻击         | 考虑投影过程的重影现象、几何变形问题、反射光问题，得到更鲁邦的攻击效果                                                  | | 实际场景无人机投射至车辆后窗 |
 | 2024-arxiv                      | Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception | [论文](https://arxiv.org/pdf/2401.03582)| 面向标志牌的对抗攻击          | 利用红外激光加热物体表面，实现肉眼不可见的攻击                                                              | |  |
+| 2024-CVIU                       | Adversarial Neon Beam: A light-based physical attack to DNNs | [论文](https://arxiv.org/pdf/2204.00853)| 面向标志牌的对抗攻击          | 利用多束范围较大的带颜色的激光，实现攻击效果                                                               | |  |
+| 2024-IET-CV                     | Adversarial catoptric light: An effective, stealthy and robust physical‐world attack to DNNs | [论文](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12264)| 面向标志牌的对抗攻击          | 相比于shadow attack，该方法利用反光镜来来投射高光，实现攻击效果                                               | |  |
 
 ## 其他
 主要收录一些做数字域对抗攻击的论文，但是提出了一些新的可用于物理域的鲁棒性增强方法
