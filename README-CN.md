@@ -38,6 +38,7 @@
 | 2022-WACV | 【AerialAttack】Physical adversarial attacks on an aerial imagery object detector | [论文](https://openaccess.thecvf.com/content/WACV2022/papers/Du_Physical_Adversarial_Attacks_on_an_Aerial_Imagery_Object_Detector_WACV_2022_paper.pdf) | **首个**面向遥感场景的物理对抗补丁 | EOT; TV,NPS | |
 | 2022-WACV | 【RWAE】Evaluating the robustness of semantic segmentation for autonomous driving against real-world adversarial patch attacks | [论文](https://openaccess.thecvf.com/content/WACV2022/papers/Nesti_Evaluating_the_Robustness_of_Semantic_Segmentation_for_Autonomous_Driving_Against_WACV_2022_paper.pdf) | 面向自然图像分割的对抗补丁 | EOT | 使用了无人驾驶仿真环境CARLA on Unreal Engine |
 | 2022-ECCV | 【MDEAttack】Physical attack on monocular depth estimation with optimal adversarial patches | [论文](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980504.pdf) | 面向自动驾驶深度估计的补丁对抗攻击 | 提出自适应mask生成方法，自适应地调整补丁位置与形状 | EOT; StyleTransfer |  |
+| 2023-CVPR | Physically Adversarial Infrared Patches with Learnable Shapes and Locations | [论文]([https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980504.pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Physically_Adversarial_Infrared_Patches_With_Learnable_Shapes_and_Locations_CVPR_2023_paper.pdf)) | 面向自动驾驶深度估计的补丁对抗攻击 | 提出自适应mask生成方法，自适应地调整补丁位置与形状 | EOT; StyleTransfer |  |
 
 ## 基于3D实体形态的物理对抗攻击
 基于3D实体形态的物理对抗攻击指通过将**通过改变目标物体的外型、纹理或放置具备干扰性的实体，从而在任意视角下均可对模型产生干扰效果**的对抗攻击方法
