@@ -125,7 +125,7 @@
 
 | 年份-刊物 | 标题 | 链接 | 论文解决的关键问题 | 建模方法创新点 | 增强方法与约束条件 | 评估方案增量 |
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| 2018-ICML | 【EOT】Synthesizing robust adversarial examples | [论文]([https://ojs.aaai.org/index.php/AAAI/article/view/3926](https://arxiv.org/pdf/1707.07397))| | | EOT(**首次**)(Adding a transformation step into the optimization process of generating adversarial perturbations.)| |
+| 2018-ICML | 【EOT】Synthesizing robust adversarial examples | [论文](https://arxiv.org/pdf/1707.07397)| | | EOT(**首次**)(Adding a transformation step into the optimization process of generating adversarial perturbations.)| |
 | 2019-AAAI | 【D2P】Connecting the digital and physical world: Improving the robustness of adversarial attacks | [论文](https://ojs.aaai.org/index.php/AAAI/article/view/3926)| 设计了Digital-to-physical Transformation(D2P)方法，使用conditional Generative Adversarial Network用于模拟真实应用场景的拍摄条件，从而使得对抗样本能够在 与实际应用场景更贴近的物理仿真图像上进行训练 | | EOT, D2P(**首次**)| |
 
 
