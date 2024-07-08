@@ -2,7 +2,7 @@
 
 <h1>Survey-of-Physical-adversarial-attack</h1>
 
-[ [简体中文](README) | [English](README-EN) ]
+[ [简体中文](README.md) | [English](README-EN.md) ]
 
 ![](https://komarev.com/ghpvc/?username=SurveyPhysicsAttack&label=visitors)
 ![GitHub stars](https://badgen.net/github/stars/Arknightpzb/Survey-of-Physical-adversarial-attack)
@@ -12,7 +12,7 @@
 
 ## Contributing
 
-本仓库主要关注与目前的**物理对抗攻击方法**，并按形态将当前方法分为**对抗补丁(Patch)，3D实体，无接触投影**三大类。
+本仓库主要关注与目前的**物理对抗攻击方法**，并按攻击形态将当前方法分为**对抗补丁(Patch)，3D实体，无接触投影**三大类
 
 欢迎大家积极补充，请随时发送Pull Request~
 
