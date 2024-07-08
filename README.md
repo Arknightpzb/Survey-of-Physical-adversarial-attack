@@ -122,6 +122,7 @@
 | 2024-arxiv                      | Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception | [论文](https://arxiv.org/pdf/2401.03582)| 面向标志牌的对抗攻击          | 利用红外激光加热物体表面，实现肉眼不可见的攻击                                                              | |  |
 | 2024-CVIU                       | Adversarial Neon Beam: A light-based physical attack to DNNs | [论文](https://arxiv.org/pdf/2204.00853)| 面向标志牌的对抗攻击          | 利用多束范围较大的带颜色的激光，实现攻击效果                                                               | |  |
 | 2024-IET-CV                     | Adversarial catoptric light: An effective, stealthy and robust physical‐world attack to DNNs | [论文](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12264)| 面向标志牌的对抗攻击          | 相比于shadow attack，该方法利用反光镜来来投射高光，实现攻击效果                                               | |  |
+| 2024-TIFS                       | Adversarial Relighting Against Face Recognition | [论文](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10478138)| 面向人脸识别的光照对抗攻击  | 1.使用了基于朗播特模型(Lambertian model)进行relighting对抗攻击, 2.提出ARNet实现端到端的自适应relight攻击 |  | **评价指标采用与原有图片相似度来计算，存在一定局限性** |
 
 ## 其他
 主要收录一些做数字域对抗攻击的论文，但是提出了一些新的可用于物理域的鲁棒性增强方法
