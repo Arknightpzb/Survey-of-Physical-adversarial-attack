@@ -105,7 +105,7 @@
 | 2024-CVPR | 【TT3D】Towards Transferable Targeted 3D Adversarial Attack in the Physical World | [论文](https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_Towards_Transferable_Targeted_3D_Adversarial_Attack_in_the_Physical_World_CVPR_2024_paper.pdf)| 3D物理对抗 | (TT3D)利用一个名为TT3D的新框架生成可迁移的3D对抗样本，该框架利用NeRF从多视角输入重建3Dmesh，减轻了3D对抗对预先存在的3Dmesh的依赖，扩大了3D攻击的适用范围 | EOT | |
 | 2024-CVPR | 【3D2Fool】Physical 3D Adversarial Attacks against Monocular Depth Estimation in Autonomous Driving | [论文](https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_Physical_3D_Adversarial_Attacks_against_Monocular_Depth_Estimation_in_Autonomous_CVPR_2024_paper.pdf)| 面向自动驾驶单目深度估计的对抗涂装 | (3D2Fool)利用texture conversion纹理转换模块以重复的方式将对抗性纹理种子转换为车辆纹理，生成与对象无关的对抗性纹理，通过physical augmentation物理增强模块集成天气变化提升在在各种天气条件下的鲁棒性| EOT, NPS | |
 | 2024-CVPR | 【IACS】Infrared Adversarial Car Stickers | [论文](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Infrared_Adversarial_Car_Stickers_CVPR_2024_paper.pdf) | 面向红外车辆检测的3D对抗贴片 | 建立了红外车俩的3D模型，使用3D Mesh向车辆模型表面投射阴影来模拟冷区域生成过程 | 对3D Mesh使用了一系列的平滑约束函数进行平滑性和制作性增强(拟合Mesh中常用的损失函数 edge, chamfer, laplace)| |
-
+| 2024-IJCV | 【TAS】Generate Transferable Adversarial Physical Camouflages via Triplet Attention Suppression | [论文](https://link.springer.com/article/10.1007/s11263-024-02098-4) |面向车辆目标检测的对抗涂装 (DAS升级版) | | 相比DAS额外引入了侧向注意力抑制Lateral Attention Inhibition | |
 ## 无接触的物理对抗攻击
 无接触的物理对抗攻击指**通过在场景中投射具备干扰性的阴影区域或改变光照条件等非直接接触干扰手段，使得模型在该场景下产生错误的决策**的对抗攻击方法
 与放置人工设计的对抗对象的物理攻击相比，无接触的攻击避免了对物理实体的修改，并且可以通过改变投影模式进行瞬态和动态的攻击。
