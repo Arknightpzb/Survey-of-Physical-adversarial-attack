@@ -29,7 +29,7 @@
 | 年份-刊物 | 标题 | 链接 | 论文解决的关键问题 | 建模方法创新点 | 增强方法与约束条件 | 评估方案增量 |
 | ------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 2016-CCS | 【AdvEyeglass】Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition | [论文](https://dl.acm.org/doi/10.1145/2976749.2978392) | 面向人脸识别开发对抗眼镜| | ; TV(**首次**),NPS(**首次**)| |
-| 2017-NeurIPS | 【AdvPatch】Adversarial patch | [论文](https://arxiv.org/pdf/1712.09665.pdf) | **首次**面向分类任务设计了通用物理对抗补丁 |  | | |
+| 2017-NeurIPS | 【AdvPatch】Adversarial patch | [论文](https://arxiv.org/pdf/1712.09665.pdf) | **首次**面向分类任务设计了**通用**物理对抗补丁 |  | | |
 | 2018-CVPR | 【RP2】Robust physical-world attacks on deep learning visual classification | [论文](https://openaccess.thecvf.com/content_cvpr_2018/papers/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper.pdf)| 面向自然图像（交通场景）分类的补丁对抗攻击 | | （设计思路）从实验中观察到掩膜的位置对攻击的有效性有影响。因此，本文从分类的角度假设物体具有强、弱物理特征，并定位掩码对弱区域进行攻击。**首次**提出RP2，首先使用L1范数约束辅助对抗扰动优化，随后以扰动存在的位置构建Mask掩膜，再对掩膜内的扰动使用L2范数约束优化，实现对抗扰动的鲁棒性提升,NPS |
 | 2018-USENIX-W | 【RP2+】Physical adversarial examples for object detectors   | [论文](https://www.usenix.org/system/files/conference/woot18/woot18-paper-eykholt.pdf)| | 将RP2扩展到了目标检测任务上 | RP2,TV,NPS |
 | 2018-ECMLPKDD | 【ShapeShifter】Shapeshifter: Robust physical adversarial attack on faster r-cnn object detector | [论文](https://link.springer.com/chapter/10.1007/978-3-030-10925-7_4) | 面向自然图像的对抗攻击（弥散） |  | EOT |
