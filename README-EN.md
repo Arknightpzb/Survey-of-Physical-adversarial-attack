@@ -1,6 +1,6 @@
 # Survey-of-Physical-adversarial-attack
 
-# See README-CN for details
+## This repository in EN is still under construction
 Thanks to Wang et al. and their [repository](https://github.com/winterwindwang/Physical-Adversarial-Attacks-Survey) which offers great reference. 
 ## Image Recognition 
 
